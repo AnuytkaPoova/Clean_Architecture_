@@ -42,5 +42,6 @@ class MainActivity : Activity() {
            val userName: UserName = getUserNameUseCase.execute()
             dataTextView.text = "${userName.firstName} ${userName.lastName}"
         }
+        
     }
 }
